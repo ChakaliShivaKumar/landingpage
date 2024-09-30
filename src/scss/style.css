@@ -1,5 +1,42 @@
-.main-home {
-  background-image: url("/Users/schakali/Desktop/landingpage/src/images/testimonials-background.jpg");
+.home {
+  background-image: url("/Users/schakali/Desktop/landingpage/src/images/bckg1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  margin: 0.2%;
+  margin-left: 0;
+}
+.home .titles h1 {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer {
+  padding-top: 1%;
+  height: 13vh;
+  background: rgb(149, 135, 88);
+}
+.footer .social-media {
+  margin-top: 1%;
+}
+.footer .social-media .sm-icon {
+  margin-right: 1%;
+}
+
+.services {
+  height: 80vh;
+}
+.services .services-icon1 {
+  height: 30vh;
+  max-width: fit-content;
+  padding-left: 200px;
+}
+.services .services-icon2 {
+  height: 30vh;
+  max-width: fit-content;
+  padding-left: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
