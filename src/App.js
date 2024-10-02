@@ -3,6 +3,10 @@ import Home from './components/Home';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import Page from './components/Page';
 import Services from './components/Services';
+import Ptrans from './components/Ptrans';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-datetime/css/react-datetime.css';
+
 
 function App() {
   return (
@@ -12,9 +16,7 @@ function App() {
             <Route path='/' element={<Page/>}>
               <Route index element = {<Home/>}/>
               <Route path='/services' element={<Services/>}/>
-              {/* <Route path='/checkout' element={<TicketCheckout/>}/>
-              <Route path='/confirmation' element={<Confirmation/>}/>
-              <Route path='/events' element={<Events/>}/> */}
+              <Route path='/ptrans' element={<Ptrans/>}/>
             </Route>
           </Routes>
         </BrowserRouter>

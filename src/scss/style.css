@@ -28,6 +28,11 @@
 .services {
   height: 80vh;
 }
+.services .services-title h1 {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .services .services-icon1 {
   height: 30vh;
   max-width: fit-content;
@@ -37,6 +42,19 @@
   height: 30vh;
   max-width: fit-content;
   padding-left: 150px;
+}
+
+.p-trans {
+  height: 80vh;
+}
+.p-trans .p-trans-title h1, .p-trans .p-trans-title h2 {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.p-trans .p-trans-main {
+  padding: 0 5% 2% 5%;
+  column-gap: 1%;
 }
 
 /*# sourceMappingURL=style.css.map */
