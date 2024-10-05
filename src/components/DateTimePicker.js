@@ -9,8 +9,7 @@ const DateTimePicker = () => {
     };
 
     return (
-        <div className="container mt-5">
-
+        <>
             <div className="form-group">
                 <Datetime
                     value={dateTime}
@@ -21,7 +20,7 @@ const DateTimePicker = () => {
                 />
             </div>
             {dateTime}
-        </div>
+        </>
     );
 };
 
