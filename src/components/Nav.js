@@ -16,12 +16,12 @@ export default function Nav() {
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="/services">Person (Passenger) transportation</a></li>
-                  <li><a class="dropdown-item" href="/services">Goods transportation</a></li>
+                  <li><a class="dropdown-item" href="/ptrans">Person (Passenger) transportation</a></li>
+                  <li><a class="dropdown-item" href="/gtrans">Goods transportation</a></li>
                 </ul>
               </li>
               <li class="nav-item">

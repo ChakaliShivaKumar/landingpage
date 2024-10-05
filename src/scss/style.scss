@@ -1,9 +1,9 @@
 .home {
-    background-image: url("/Users/schakali/Desktop/landingpage/src/images/bckg1.jpg");
+    background-image: url("../images/bckg1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    max-height: 80vh;
     margin: 0.2%;
     margin-left: 0;
 
@@ -17,7 +17,7 @@
     }
   }
   
-  .footer{
+  footer{
     padding-top: 1%;
     height: 13vh;
     background: rgb(149, 135, 88 );
@@ -58,7 +58,7 @@
 
 
   .p-trans{
-    height: 80vh;
+    min-height: 77vh;
 
     .p-trans-title{
         h1,h2{

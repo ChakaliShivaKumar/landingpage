@@ -6,10 +6,13 @@ import Services from './components/Services';
 import Ptrans from './components/Ptrans';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-datetime/css/react-datetime.css';
+import Nav from './components/Nav';
+import Gtrans from './components/Gtrans';
 
 
 function App() {
   return (
+    <>
     <div className="App">
       <BrowserRouter>
           <Routes>
@@ -17,10 +20,12 @@ function App() {
               <Route index element = {<Home/>}/>
               <Route path='/services' element={<Services/>}/>
               <Route path='/ptrans' element={<Ptrans/>}/>
+              <Route path='/gtrans' element={<Gtrans/>}/>
             </Route>
           </Routes>
         </BrowserRouter>
     </div>
+    </>
   );
 }
 
