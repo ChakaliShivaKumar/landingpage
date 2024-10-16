@@ -8,13 +8,13 @@ export default function Footer() {
         </div>
         <div className="social-media">
             <a className='sm-icon' href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
-                <img src={require('../images/facebook.png')} alt="LinkedIn"/>
+                <img src={require('../images/linkedin.png')} alt="LinkedIn"/>
             </a>
             <a className='sm-icon' href="https://www.facebook.com" target="_blank" aria-label="Facebook">
                 <img src={require('../images/facebook.png')} alt="Facebook"/>
             </a>
             <a className='sm-icon' href="https://www.instagram.com" target="_blank" aria-label="Instagram">
-                <img src={require('../images/facebook.png')} alt="Instagram"/>
+                <img src={require('../images/instagram.png')} alt="Instagram"/>
             </a>
             <a className='sm-icon' href="https://www.x.com" target="_blank" aria-label="X">
                 <img src={require('../images/twitter.png')} alt="X"/>

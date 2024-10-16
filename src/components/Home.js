@@ -12,13 +12,13 @@ export default function Home() {
             </div>
             <div class="col-lg-4 sidebar mt-lg-5">
                 `<div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-secondary" type="button">Book now</button>
-                    <button class="btn btn-secondary" type="button">Vehicle rentals</button>
-                    <button class="btn btn-secondary" type="button">Shuttle/commute transportation</button>
-                    <button class="btn btn-secondary" type="button">Drivers</button>
-                    <button class="btn btn-secondary" type="button">Logistics</button>
-                    <button class="btn btn-secondary" type="button">Interstate/Intrastate transportation</button>
-                    <button class="btn btn-secondary" type="button">Order delivery</button>
+                    <button class="btn btn-primary btn-lg rounded-pill shadow-sm px-4 py-2" type="button">Book Now</button>
+                    <button class="btn btn-primary btn-lg rounded-pill shadow-sm px-4 py-2" type="button">Vehicle rentals</button>
+                    <button class="btn btn-primary btn-lg rounded-pill shadow-sm px-4 py-2" type="button">Shuttle/commute</button>
+                    <button class="btn btn-primary btn-lg rounded-pill shadow-sm px-4 py-2" type="button">Drivers</button>
+                    <button class="btn btn-primary btn-lg rounded-pill shadow-sm px-4 py-2" type="button">Logistics</button>
+                    <button class="btn btn-primary btn-lg rounded-pill shadow-sm px-4 py-2" type="button">Interstate/Intrastate</button>
+                    <button class="btn btn-primary btn-lg rounded-pill shadow-sm px-4 py-2" type="button">Order delivery</button>
                 </div>
             </div>
         </div>
